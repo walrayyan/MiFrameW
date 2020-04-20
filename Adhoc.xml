@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding= "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="Adhoc" parallel="test"thread-count="1">
+<parameter name="amazon" vlaue="computer"></parameter>
+<parameter name="amazon6" vlaue="phones"></parameter>
+<parameter name="amazon0" vlaue="city"></parameter>
+<listners class-name="listner"> </listners>
+<parameter name="URL" vlaue="https://www.amazon.com"></parameter>
+<test name= "userinterfacetest">
+<parameter name="browser" vlaue="chrome"></parameter>
+
+<class>
+<!--class name= "protrainingtech.Framework.Amazon"></class>
+<class name= "protrainingtech.Framework.Amazon2"></class>-->
+<class name="protrainingtech.Framework.parametrization"></class>
+</classes>
+
+</test>
+<!-- <test name="firefox">
+<parameter name="browser" vlaue="faiefox"></parameter>
+</Classes>
+<class name="protrainingtech.Framework.parametrization"></class>
+</test-->
+
+</suite>
